@@ -8,7 +8,7 @@ CMD /bin/bash
 RUN yum install -y httpd \
  zip\
  unzip
-ADD https://www.free-css.com/free-css-templates/page285/evonyee.zip /var/www/html/
+ADD https://www.free-css.com/assets/files/free-css-templates/download/page285/evonyee.zip /var/www/html/
 WORKDIR /var/www/html/
 RUN unzip evonyee.zip
 RUN cp -rvf evonyee/* .
