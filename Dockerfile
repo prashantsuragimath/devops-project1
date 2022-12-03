@@ -1,4 +1,4 @@
-FROM  centos:latest
+FROM  ubuntu:20.04
 MAINTAINER trainings.anil@gmail.com
 RUN yum install -y httpd \
  zip\
